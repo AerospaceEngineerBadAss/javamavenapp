@@ -21,7 +21,9 @@
         <!-- Build an executable JAR -->
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
-        <version>3.0.2</version>
+        <!-- <version>3.0.2</version> -->
+        <!-- Alexey is changing the version to see if i get rid of errors -->
+        <version>3.2.0</version>
         <configuration>
           <archive>
             <manifest>
